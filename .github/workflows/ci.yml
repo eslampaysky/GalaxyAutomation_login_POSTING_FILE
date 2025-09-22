@@ -26,11 +26,24 @@ jobs:
       - name: Build with Maven
         run: mvn clean install
 
-      # Step 4: Run only critical tests (login test)
+      # Step 4: Run only critical tests
       - name: Run Critical Tests
-        run: mvn test -DsuiteXmlFile=critical-tests.xml
+        id: run-tests
+        run: |
+          mvn test -DsuiteXmlFile=critical-tests.xml | tee maven.log
+          echo "exit_code=${PIPESTATUS[0]}" >> $GITHUB_ENV
 
-      # Step 5: Send email if any previous step failed
+      # Step 5: Parse failing tests
+      - name: Parse failing tests
+        if: always()
+        id: parse-failures
+        run: |
+          mkdir -p test-results
+          grep -H "<testcase" target/surefire-reports/*.xml | grep 'failure' | \
+          sed -E 's/.*classname="([^"]+)".*name="([^"]+)".*/\1.\2/' > test-results/failures.txt || true
+          echo "failures=$(cat test-results/failures.txt)" >> $GITHUB_OUTPUT
+
+      # Step 6: Send email if there are failures
       - name: Send Email on Failure
         if: failure()
         uses: dawidd6/action-send-mail@v3
@@ -39,6 +52,12 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: Login CI/CD Test Failure
-          body: "The following tests failed in GalaxyAutomation_login_POSTING_FILE:TestSuite/LoginTest.loginWithValidData. Check the GitHub Actions workflow for details."
+          subject: "❌ GalaxyAutomation CI/CD Test Failure"
+          body: |
+            The following tests failed in GalaxyAutomation_login_POSTING_FILE:
+
+            ${{ steps.parse-failures.outputs.failures }}
+
+            
           to: eslam.samy@paysky.io
+          from: ci@example.com

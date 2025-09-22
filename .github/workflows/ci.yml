@@ -39,6 +39,6 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: CI/CD Test Failure
-          body: "Critical login test failed. Check the GitHub Actions workflow for details."
+          subject: Login CI/CD Test Failure
+          body: "The following tests failed in GalaxyAutomation_login_POSTING_FILE:TestSuite/LoginTest.loginWithValidData. Check the GitHub Actions workflow for details."
           to: eslam.samy@paysky.io

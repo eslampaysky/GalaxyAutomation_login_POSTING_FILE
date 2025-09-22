@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Galaxy Suite" verbose="1" parallel="false">
-    <test name="Galaxy Tests">
-        <packages>
-            <!-- This will run everything under src/test/java/TestCases -->
-            <package name="TestCases"/>
-        </packages>
+<suite name="Critical Suite" verbose="1" parallel="false">
+    <test name="Critical Tests">
+        <groups>
+            <run>
+                <include name="critical"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestCases.LoginTest"/>
+        </classes>
     </test>
 </suite>

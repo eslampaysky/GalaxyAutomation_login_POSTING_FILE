@@ -1,0 +1,1375 @@
+# Record Type: HR
+HR
+00000001
+281633
+PTIN000004250922
+20250922155308
+C
+
+# Record Type: HS
+HS
+00000002
+    81633000880
+  8163300088088
+               
+00000000
+20250922
+20250922155308
+952
+E
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000003
+Transaction sequence: 0000001
+Service type: 0
+Voucher number:   095752
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250803085831
+Transaction amount: 000000000000002800
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 006258
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000004
+Voucher number:   095752
+Purchase identifier:                                       000269095752
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000005
+Transaction sequence: 0000002
+Service type: 0
+Voucher number:   270027
+Card number:       6398790000175409
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250804101105
+Transaction amount: 000000000000003000
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 398854
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000006
+Voucher number:   270027
+Purchase identifier:                                       000676270027
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000007
+Transaction sequence: 0000003
+Service type: 0
+Voucher number:   998345
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250804164112
+Transaction amount: 000000000000001258
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 034139
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000008
+Voucher number:   998345
+Purchase identifier:                                       000384998345
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000009
+Transaction sequence: 0000004
+Service type: 0
+Voucher number:   324825
+Card number:       6398790000175409
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250805115848
+Transaction amount: 000000000000003000
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 116610
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000010
+Voucher number:   324825
+Purchase identifier:                                       000864324825
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000011
+Transaction sequence: 0000005
+Service type: 0
+Voucher number:   959101
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250805122028
+Transaction amount: 000000000000003000
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 044929
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000012
+Voucher number:   959101
+Purchase identifier:                                       000970959101
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000013
+Transaction sequence: 0000006
+Service type: 0
+Voucher number:   231181
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250805122104
+Transaction amount: 000000000000003000
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 026030
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000014
+Voucher number:   231181
+Purchase identifier:                                       000995231181
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000015
+Transaction sequence: 0000007
+Service type: 0
+Voucher number:   421461
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 200000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250805125110
+Transaction amount: 000000000000003000
+Transaction sign: D
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 057148
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000016
+Voucher number:   421461
+Purchase identifier:                                       000550421461
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000017
+Transaction sequence: 0000008
+Service type: 0
+Voucher number:   552429
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 200000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250805130324
+Transaction amount: 000000000000003000
+Transaction sign: D
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 054260
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000018
+Voucher number:   552429
+Purchase identifier:                                       000706552429
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000019
+Transaction sequence: 0000009
+Service type: 0
+Voucher number:   591075
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250805130722
+Transaction amount: 000000000000001258
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 041295
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000020
+Voucher number:   591075
+Purchase identifier:                                       000447591075
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000021
+Transaction sequence: 0000010
+Service type: 0
+Voucher number:   396446
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250805134845
+Transaction amount: 000000000000001258
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 020001
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000022
+Voucher number:   396446
+Purchase identifier:                                       000889396446
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000023
+Transaction sequence: 0000011
+Service type: 0
+Voucher number:   051270
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 200000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250805141858
+Transaction amount: 000000000000001258
+Transaction sign: D
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 093527
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000024
+Voucher number:   051270
+Purchase identifier:                                       000581051270
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000025
+Transaction sequence: 0000012
+Service type: 0
+Voucher number:   996389
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250807102810
+Transaction amount: 000000000000001258
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 024583
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000026
+Voucher number:   996389
+Purchase identifier:                                       000570996389
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000027
+Transaction sequence: 0000013
+Service type: 0
+Voucher number:   803368
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250810100406
+Transaction amount: 000000000000002500
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 070056
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000028
+Voucher number:   803368
+Purchase identifier:                                       000145803368
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000029
+Transaction sequence: 0000014
+Service type: 0
+Voucher number:   433958
+Card number:       6398790000109804
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250811084042
+Transaction amount: 000000000000002550
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 114302
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000030
+Voucher number:   433958
+Purchase identifier:                                       000476433958
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000031
+Transaction sequence: 0000015
+Service type: 0
+Voucher number:   379921
+Card number:       6398790000109804
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250812095216
+Transaction amount: 000000000000002500
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 057969
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000032
+Voucher number:   379921
+Purchase identifier:                                       000663379921
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000033
+Transaction sequence: 0000016
+Service type: 0
+Voucher number:   071194
+Card number:       6398790000109804
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250813103006
+Transaction amount: 000000000000004000
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 754151
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000034
+Voucher number:   071194
+Purchase identifier:                                       000165071194
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000035
+Transaction sequence: 0000017
+Service type: 0
+Voucher number:   761286
+Card number:       6398790000109804
+Expiry date: 202508
+Processing code: 200000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250813134156
+Transaction amount: 000000000000004000
+Transaction sign: D
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 900350
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000036
+Voucher number:   761286
+Purchase identifier:                                       000886761286
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000037
+Transaction sequence: 0000018
+Service type: 0
+Voucher number:   953727
+Card number:       6398790000109804
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250813134851
+Transaction amount: 000000000000004000
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 761371
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000038
+Voucher number:   953727
+Purchase identifier:                                       000413953727
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000039
+Transaction sequence: 0000019
+Service type: 0
+Voucher number:   730340
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250819095956
+Transaction amount: 000000000000002500
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 052507
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000040
+Voucher number:   730340
+Purchase identifier:                                       000607730340
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000041
+Transaction sequence: 0000020
+Service type: 0
+Voucher number:   727616
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250819100515
+Transaction amount: 000000000000002500
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 070824
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000042
+Voucher number:   727616
+Purchase identifier:                                       000114727616
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000043
+Transaction sequence: 0000021
+Service type: 0
+Voucher number:   249510
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250819101312
+Transaction amount: 000000000000002500
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 050270
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000044
+Voucher number:   249510
+Purchase identifier:                                       000083249510
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000045
+Transaction sequence: 0000022
+Service type: 0
+Voucher number:   192470
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250819123603
+Transaction amount: 000000000000002500
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 047498
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000046
+Voucher number:   192470
+Purchase identifier:                                       000069192470
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000047
+Transaction sequence: 0000023
+Service type: 0
+Voucher number:   313042
+Card number:       4848621302960712
+Expiry date: 202512
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 08
+Transaction date & time: 20250819123946
+Transaction amount: 000000000000002500
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 031501
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000048
+Voucher number:   313042
+Purchase identifier:                                       000278313042
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000049
+Transaction sequence: 0000024
+Service type: 0
+Voucher number:   783991
+Card number:       6398790000109804
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250820145942
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 860899
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000050
+Voucher number:   783991
+Purchase identifier:                                       000792783991
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000051
+Transaction sequence: 0000025
+Service type: 0
+Voucher number:   914410
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820153937
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 661984
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000052
+Voucher number:   914410
+Purchase identifier:                                       000849914410
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000053
+Transaction sequence: 0000026
+Service type: 0
+Voucher number:   530523
+Card number:       6398790000109804
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250820154842
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 492778
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000054
+Voucher number:   530523
+Purchase identifier:                                       000304530523
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000055
+Transaction sequence: 0000027
+Service type: 0
+Voucher number:   991291
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820155305
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 196074
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000056
+Voucher number:   991291
+Purchase identifier:                                       000868991291
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000057
+Transaction sequence: 0000028
+Service type: 0
+Voucher number:   944508
+Card number:       6398790000109804
+Expiry date: 202508
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0000
+POS condition code: 00
+Transaction date & time: 20250820155716
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 177805
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000058
+Voucher number:   944508
+Purchase identifier:                                       000633944508
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000059
+Transaction sequence: 0000029
+Service type: 0
+Voucher number:   678796
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820160403
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 979808
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000060
+Voucher number:   678796
+Purchase identifier:                                       000964678796
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000061
+Transaction sequence: 0000030
+Service type: 0
+Voucher number:   462645
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550V05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820165719
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 698200
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000062
+Voucher number:   462645
+Purchase identifier:                                       000622462645
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000063
+Transaction sequence: 0000031
+Service type: 0
+Voucher number:   633210
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820165850
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 763172
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000064
+Voucher number:   633210
+Purchase identifier:                                       000184633210
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000065
+Transaction sequence: 0000032
+Service type: 0
+Voucher number:   134346
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820172300
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 023091
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000066
+Voucher number:   134346
+Purchase identifier:                                       000244134346
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000067
+Transaction sequence: 0000033
+Service type: 0
+Voucher number:   854796
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820172420
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 614737
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000068
+Voucher number:   854796
+Purchase identifier:                                       000378854796
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000069
+Transaction sequence: 0000034
+Service type: 0
+Voucher number:   145287
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820172745
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 329143
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000070
+Voucher number:   145287
+Purchase identifier:                                       000082145287
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000071
+Transaction sequence: 0000035
+Service type: 0
+Voucher number:   797826
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820173642
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 201116
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000072
+Voucher number:   797826
+Purchase identifier:                                       000283797826
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000073
+Transaction sequence: 0000036
+Service type: 0
+Voucher number:   275702
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820192034
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 621074
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000074
+Voucher number:   275702
+Purchase identifier:                                       000931275702
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: DT
+Record type: DT
+Record sequence: 00000075
+Transaction sequence: 0000037
+Service type: 0
+Voucher number:   113351
+Card number:       5219570245517691
+Expiry date: 202604
+Processing code: 000000
+Reversal flag: N
+Authorization flag: A
+POS data: 600550T05110
+POS entry mode: 0120
+POS condition code: 15
+Transaction date & time: 20250820192517
+Transaction amount: 000000000000001236
+Transaction sign: C
+Transaction currency: 952
+Currency exponent: 0
+Reversal reason code:   
+Replacement amounts:                   
+Authorization code: 775135
+Service code:    
+Single message indicator:  
+
+# Record Type: EC
+Record type: EC
+Record sequence: 00000076
+Voucher number:   113351
+Purchase identifier:                                       000240113351
+E-commerce indicator:  
+Security level indicator:    
+Agent Unique ID:      
+Wallet program data:    
+Deferred billing indicator:  
+
+# Record Type: TS
+Record type: TS
+Record sequence: 00000077
+Merchant number:     81633000880
+Outlet number:   8163300088088
+Terminal ID:                
+Batch number: 00000000
+Batch capture date: 20250922
+Batch date & time: 20250922155308
+Records count debit: 000004
+Net amount debit: 000000000000011258
+Records count credit: 000033
+Net amount credit: 000000000000065186
+
+# Record Type: TR
+Record type: TR
+Record sequence: 00000078
+Institution ID: 281633
+File sender: 281633
+Records count debit: 00000004
+Record count credit: 00000033
+Net amount credit: 000000000000065186
+Net amount debit: 000000000000011258

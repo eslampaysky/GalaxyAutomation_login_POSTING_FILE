@@ -1,0 +1,557 @@
+=== Validation Report (Row ↔ DT Matching) ===
+
+--- DB Row 1 (Voucher 000269) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='095752' == File='095752'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000002800' == File='000000000000002800'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250803085831' == File='20250803085831'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000000300000010  095752      4848621302960712202512000000NA600550V0511001200820250803085831000000000000002800C9520                    006258
+Full file voucher: 095752
+
+--- DB Row 2 (Voucher 000676) ---
+[PASS] Card number: DB='6398790000175409' == File='6398790000175409'
+[PASS] Voucher number: DB='270027' == File='270027'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000003000' == File='000000000000003000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250804101105' == File='20250804101105'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000000500000020  270027      6398790000175409202508000000NA600550V0511000000020250804101105000000000000003000C9520                    398854
+Full file voucher: 270027
+
+--- DB Row 3 (Voucher 000384) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='998345' == File='998345'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000001258' == File='000000000000001258'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250804164112' == File='20250804164112'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000000700000030  998345      4848621302960712202512000000NA600550V0511001200820250804164112000000000000001258C9520                    034139
+Full file voucher: 998345
+
+--- DB Row 4 (Voucher 000864) ---
+[PASS] Card number: DB='6398790000175409' == File='6398790000175409'
+[PASS] Voucher number: DB='324825' == File='324825'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000003000' == File='000000000000003000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250805115848' == File='20250805115848'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000000900000040  324825      6398790000175409202508000000NA600550V0511000000020250805115848000000000000003000C9520                    116610
+Full file voucher: 324825
+
+--- DB Row 5 (Voucher 000970) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='959101' == File='959101'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000003000' == File='000000000000003000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250805122028' == File='20250805122028'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000001100000050  959101      4848621302960712202512000000NA600550V0511001200820250805122028000000000000003000C9520                    044929
+Full file voucher: 959101
+
+--- DB Row 6 (Voucher 000995) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='231181' == File='231181'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000003000' == File='000000000000003000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250805122104' == File='20250805122104'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000001300000060  231181      4848621302960712202512000000NA600550V0511001200820250805122104000000000000003000C9520                    026030
+Full file voucher: 231181
+
+--- DB Row 7 (Voucher 000550) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='421461' == File='421461'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000003000' == File='000000000000003000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250805125110' == File='20250805125110'
+[PASS] Processing code: DB='200000' == File='200000'
+[PASS] Transaction sign: DB='D' == File='D'
+Raw DT record: DT0000001500000070  421461      4848621302960712202512200000NA600550V0511001200820250805125110000000000000003000D9520                    057148
+Full file voucher: 421461
+
+--- DB Row 8 (Voucher 000706) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='552429' == File='552429'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000003000' == File='000000000000003000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250805130324' == File='20250805130324'
+[PASS] Processing code: DB='200000' == File='200000'
+[PASS] Transaction sign: DB='D' == File='D'
+Raw DT record: DT0000001700000080  552429      4848621302960712202512200000NA600550V0511001200820250805130324000000000000003000D9520                    054260
+Full file voucher: 552429
+
+--- DB Row 9 (Voucher 000447) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='591075' == File='591075'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000001258' == File='000000000000001258'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250805130722' == File='20250805130722'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000001900000090  591075      4848621302960712202512000000NA600550V0511001200820250805130722000000000000001258C9520                    041295
+Full file voucher: 591075
+
+--- DB Row 10 (Voucher 000889) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='396446' == File='396446'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000001258' == File='000000000000001258'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250805134845' == File='20250805134845'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000002100000100  396446      4848621302960712202512000000NA600550V0511001200820250805134845000000000000001258C9520                    020001
+Full file voucher: 396446
+
+--- DB Row 11 (Voucher 000581) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='051270' == File='051270'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000001258' == File='000000000000001258'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250805141858' == File='20250805141858'
+[PASS] Processing code: DB='200000' == File='200000'
+[PASS] Transaction sign: DB='D' == File='D'
+Raw DT record: DT0000002300000110  051270      4848621302960712202512200000NA600550V0511001200820250805141858000000000000001258D9520                    093527
+Full file voucher: 051270
+
+--- DB Row 12 (Voucher 000570) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='996389' == File='996389'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000001258' == File='000000000000001258'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250807102810' == File='20250807102810'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000002500000120  996389      4848621302960712202512000000NA600550V0511001200820250807102810000000000000001258C9520                    024583
+Full file voucher: 996389
+
+--- DB Row 13 (Voucher 000145) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='803368' == File='803368'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000002500' == File='000000000000002500'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250810100406' == File='20250810100406'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000002700000130  803368      4848621302960712202512000000NA600550V0511001200820250810100406000000000000002500C9520                    070056
+Full file voucher: 803368
+
+--- DB Row 14 (Voucher 000476) ---
+[PASS] Card number: DB='6398790000109804' == File='6398790000109804'
+[PASS] Voucher number: DB='433958' == File='433958'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000002550' == File='000000000000002550'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250811084042' == File='20250811084042'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000002900000140  433958      6398790000109804202508000000NA600550V0511000000020250811084042000000000000002550C9520                    114302
+Full file voucher: 433958
+
+--- DB Row 15 (Voucher 000663) ---
+[PASS] Card number: DB='6398790000109804' == File='6398790000109804'
+[PASS] Voucher number: DB='379921' == File='379921'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000002500' == File='000000000000002500'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250812095216' == File='20250812095216'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000003100000150  379921      6398790000109804202508000000NA600550V0511000000020250812095216000000000000002500C9520                    057969
+Full file voucher: 379921
+
+--- DB Row 16 (Voucher 000165) ---
+[PASS] Card number: DB='6398790000109804' == File='6398790000109804'
+[PASS] Voucher number: DB='071194' == File='071194'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000004000' == File='000000000000004000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250813103006' == File='20250813103006'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000003300000160  071194      6398790000109804202508000000NA600550V0511000000020250813103006000000000000004000C9520                    754151
+Full file voucher: 071194
+
+--- DB Row 17 (Voucher 000886) ---
+[PASS] Card number: DB='6398790000109804' == File='6398790000109804'
+[PASS] Voucher number: DB='761286' == File='761286'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000004000' == File='000000000000004000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250813134156' == File='20250813134156'
+[PASS] Processing code: DB='200000' == File='200000'
+[PASS] Transaction sign: DB='D' == File='D'
+Raw DT record: DT0000003500000170  761286      6398790000109804202508200000NA600550V0511000000020250813134156000000000000004000D9520                    900350
+Full file voucher: 761286
+
+--- DB Row 18 (Voucher 000413) ---
+[PASS] Card number: DB='6398790000109804' == File='6398790000109804'
+[PASS] Voucher number: DB='953727' == File='953727'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000004000' == File='000000000000004000'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250813134851' == File='20250813134851'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000003700000180  953727      6398790000109804202508000000NA600550V0511000000020250813134851000000000000004000C9520                    761371
+Full file voucher: 953727
+
+--- DB Row 19 (Voucher 000607) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='730340' == File='730340'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000002500' == File='000000000000002500'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250819095956' == File='20250819095956'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000003900000190  730340      4848621302960712202512000000NA600550T0511001200820250819095956000000000000002500C9520                    052507
+Full file voucher: 730340
+
+--- DB Row 20 (Voucher 000114) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='727616' == File='727616'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000002500' == File='000000000000002500'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250819100515' == File='20250819100515'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000004100000200  727616      4848621302960712202512000000NA600550T0511001200820250819100515000000000000002500C9520                    070824
+Full file voucher: 727616
+
+--- DB Row 21 (Voucher 000083) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='249510' == File='249510'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000002500' == File='000000000000002500'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250819101312' == File='20250819101312'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000004300000210  249510      4848621302960712202512000000NA600550T0511001200820250819101312000000000000002500C9520                    050270
+Full file voucher: 249510
+
+--- DB Row 22 (Voucher 000069) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='192470' == File='192470'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000002500' == File='000000000000002500'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250819123603' == File='20250819123603'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000004500000220  192470      4848621302960712202512000000NA600550T0511001200820250819123603000000000000002500C9520                    047498
+Full file voucher: 192470
+
+--- DB Row 23 (Voucher 000278) ---
+[PASS] Card number: DB='4848621302960712' == File='4848621302960712'
+[PASS] Voucher number: DB='313042' == File='313042'
+[PASS] Expiry date: DB='202512' == File='202512'
+[PASS] Transaction amount: DB='000000000000002500' == File='000000000000002500'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='08' == File='08'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250819123946' == File='20250819123946'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000004700000230  313042      4848621302960712202512000000NA600550T0511001200820250819123946000000000000002500C9520                    031501
+Full file voucher: 313042
+
+--- DB Row 24 (Voucher 000792) ---
+[PASS] Card number: DB='6398790000109804' == File='6398790000109804'
+[PASS] Voucher number: DB='783991' == File='783991'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250820145942' == File='20250820145942'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000004900000240  783991      6398790000109804202508000000NA600550V0511000000020250820145942000000000000001236C9520                    860899
+Full file voucher: 783991
+
+--- DB Row 25 (Voucher 000849) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='914410' == File='914410'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820153937' == File='20250820153937'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000005100000250  914410      5219570245517691202604000000NA600550T0511001201520250820153937000000000000001236C9520                    661984
+Full file voucher: 914410
+
+--- DB Row 26 (Voucher 000304) ---
+[PASS] Card number: DB='6398790000109804' == File='6398790000109804'
+[PASS] Voucher number: DB='530523' == File='530523'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250820154842' == File='20250820154842'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000005300000260  530523      6398790000109804202508000000NA600550V0511000000020250820154842000000000000001236C9520                    492778
+Full file voucher: 530523
+
+--- DB Row 27 (Voucher 000868) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='991291' == File='991291'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250820155305' == File='20250820155305'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000005500000270  991291      5219570245517691202604000000NA600550V0511001201520250820155305000000000000001236C9520                    196074
+Full file voucher: 991291
+
+--- DB Row 28 (Voucher 000633) ---
+[PASS] Card number: DB='6398790000109804' == File='6398790000109804'
+[PASS] Voucher number: DB='944508' == File='944508'
+[PASS] Expiry date: DB='202508' == File='202508'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0000' == File='0000'
+[PASS] POS condition code: DB='00' == File='00'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250820155716' == File='20250820155716'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000005700000280  944508      6398790000109804202508000000NA600550V0511000000020250820155716000000000000001236C9520                    177805
+Full file voucher: 944508
+
+--- DB Row 29 (Voucher 000964) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='678796' == File='678796'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820160403' == File='20250820160403'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000005900000290  678796      5219570245517691202604000000NA600550T0511001201520250820160403000000000000001236C9520                    979808
+Full file voucher: 678796
+
+--- DB Row 30 (Voucher 000622) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='462645' == File='462645'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550V05110' == File='600550V05110'
+[PASS] Transaction date & time: DB='20250820165719' == File='20250820165719'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000006100000300  462645      5219570245517691202604000000NA600550V0511001201520250820165719000000000000001236C9520                    698200
+Full file voucher: 462645
+
+--- DB Row 31 (Voucher 000184) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='633210' == File='633210'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820165850' == File='20250820165850'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000006300000310  633210      5219570245517691202604000000NA600550T0511001201520250820165850000000000000001236C9520                    763172
+Full file voucher: 633210
+
+--- DB Row 32 (Voucher 000244) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='134346' == File='134346'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820172300' == File='20250820172300'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000006500000320  134346      5219570245517691202604000000NA600550T0511001201520250820172300000000000000001236C9520                    023091
+Full file voucher: 134346
+
+--- DB Row 33 (Voucher 000378) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='854796' == File='854796'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820172420' == File='20250820172420'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000006700000330  854796      5219570245517691202604000000NA600550T0511001201520250820172420000000000000001236C9520                    614737
+Full file voucher: 854796
+
+--- DB Row 34 (Voucher 000082) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='145287' == File='145287'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820172745' == File='20250820172745'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000006900000340  145287      5219570245517691202604000000NA600550T0511001201520250820172745000000000000001236C9520                    329143
+Full file voucher: 145287
+
+--- DB Row 35 (Voucher 000283) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='797826' == File='797826'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820173642' == File='20250820173642'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000007100000350  797826      5219570245517691202604000000NA600550T0511001201520250820173642000000000000001236C9520                    201116
+Full file voucher: 797826
+
+--- DB Row 36 (Voucher 000931) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='275702' == File='275702'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820192034' == File='20250820192034'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000007300000360  275702      5219570245517691202604000000NA600550T0511001201520250820192034000000000000001236C9520                    621074
+Full file voucher: 275702
+
+--- DB Row 37 (Voucher 000240) ---
+[PASS] Card number: DB='5219570245517691' == File='5219570245517691'
+[PASS] Voucher number: DB='113351' == File='113351'
+[PASS] Expiry date: DB='202604' == File='202604'
+[PASS] Transaction amount: DB='000000000000001236' == File='000000000000001236'
+[PASS] Transaction currency: DB='952' == File='952'
+[PASS] POS entry mode: DB='0120' == File='0120'
+[PASS] POS condition code: DB='15' == File='15'
+[PASS] POS data: DB='600550T05110' == File='600550T05110'
+[PASS] Transaction date & time: DB='20250820192517' == File='20250820192517'
+[PASS] Processing code: DB='000000' == File='000000'
+[PASS] Transaction sign: DB='C' == File='C'
+Raw DT record: DT0000007500000370  113351      5219570245517691202604000000NA600550T0511001201520250820192517000000000000001236C9520                    775135
+Full file voucher: 113351
+

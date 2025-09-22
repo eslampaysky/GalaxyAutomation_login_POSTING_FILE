@@ -41,4 +41,4 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: CI/CD Test Failure
           body: "Critical login test failed. Check the GitHub Actions workflow for details."
-          to: eslamsamy650@gmail.com
+          to: Salah.mohamed@paysky.io

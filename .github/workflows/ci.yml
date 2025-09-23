@@ -41,6 +41,6 @@ jobs:
           body: |
             The critical login test in GalaxyAutomation_login_POSTING_FILE has failed.
             Please check the GitHub Actions logs for details.
-          to: saleh.mohamed@paysky.io
+          to: saleh.mohamed@paysky.io,eslam.samy@paysky.io
           from: eslam.samy@paysky.io
           # debug: true

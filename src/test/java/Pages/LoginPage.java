@@ -18,7 +18,7 @@ public class LoginPage {
 
     public LoginPage() {
         driver = DriverFactory.getDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
     // Locators & actions

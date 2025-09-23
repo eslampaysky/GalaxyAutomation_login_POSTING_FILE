@@ -1,19 +1,19 @@
-name: CI/CD Pipeline
+name: CI/CD Critical Test Pipeline
 
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  schedule:          # Trigger daily at 7:00 AM 
+  schedule:          # Trigger daily at 7:00 AM UTC
     - cron: '0 4 * * *'
 
 jobs:
-  build-and-test:
+  critical-test:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
+      # Step 1: Checkout code
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -24,28 +24,12 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      # Step 3: Build the project with Maven
-      - name: Build with Maven
-        run: mvn clean install
-
-      # Step 4: Run only critical tests
-      - name: Run Critical Tests
+      # Step 3: Run Critical Login Test
+      - name: Run Critical Login Test
         id: run-tests
-        run: |
-          mvn test -DsuiteXmlFile=critical-tests.xml | tee maven.log
-          echo "exit_code=${PIPESTATUS[0]}" >> $GITHUB_ENV
+        run: mvn test -DsuiteXmlFile=critical-tests.xml
 
-      # Step 5: Parse failing tests
-      - name: Parse failing tests
-        if: always()
-        id: parse-failures
-        run: |
-          mkdir -p test-results
-          grep -H "<testcase" target/surefire-reports/*.xml | grep 'failure' | \
-          sed -E 's/.*classname="([^"]+)".*name="([^"]+)".*/\1.\2/' > test-results/failures.txt || true
-          echo "failures=$(cat test-results/failures.txt)" >> $GITHUB_OUTPUT
-
-      # Step 6: Send email if there are failures
+      # Step 4: Send email if test failed
       - name: Send Email on Failure
         if: ${{ steps.run-tests.outcome == 'failure' }}
         uses: dawidd6/action-send-mail@v3
@@ -54,11 +38,8 @@ jobs:
           server_port: 465
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
-          subject: "❌ GalaxyAutomation CI/CD Test Failure"
-          body: |
-            The following tests failed in GalaxyAutomation_login_POSTING_FILE:
-
-            ${{ steps.parse-failures.outputs.failures }}
+          subject: "❌ Critical Login Test Failed"
+          body: "The critical login test failed in GalaxyAutomation_login_POSTING_FILE. Please check GitHub Actions logs."
           to: eslam.samy@paysky.io
           from: eslam.samy@paysky.io
           debug: true

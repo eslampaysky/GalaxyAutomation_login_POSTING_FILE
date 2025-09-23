@@ -59,5 +59,6 @@ jobs:
             The following tests failed in GalaxyAutomation_login_POSTING_FILE:
 
             ${{ steps.parse-failures.outputs.failures }}
-          to: Salah.Mohamed@paysky.io
+          to: eslam.samy@paysky.io
           from: eslam.samy@paysky.io
+          debug: true

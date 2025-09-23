@@ -1,4 +1,4 @@
-name: CI/CD Critical Test Pipeline
+name: Critical Login Test CI/CD
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
   pull_request:
     branches: [ main ]
   schedule:          # Trigger daily at 7:00 AM UTC
-    - cron: '0 4 * * *'
+    - cron: '0 7 * * *'
 
 jobs:
-  critical-test:
+  critical-login-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +26,11 @@ jobs:
 
       # Step 3: Run Critical Login Test
       - name: Run Critical Login Test
-        id: run-tests
         run: mvn test -DsuiteXmlFile=critical-tests.xml
 
-      # Step 4: Send email if test failed
-      - name: Send Email on Failure
-        # if: ${{ steps.run-tests.outcome == 'failure' }}
+      # Step 4: Send Email on Failure
+      - name: Send Email if Test Fails
+        if: failure()  # Runs only if the previous step fails
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -39,7 +38,9 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "❌ Critical Login Test Failed"
-          body: "The critical login test failed in GalaxyAutomation_login_POSTING_FILE. Please check GitHub Actions logs."
+          body: |
+            The critical login test in GalaxyAutomation_login_POSTING_FILE has failed.
+            Please check the GitHub Actions logs for details.
           to: eslam.samy@paysky.io
           from: eslam.samy@paysky.io
-          debug: true
+          # debug: true

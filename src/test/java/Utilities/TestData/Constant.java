@@ -3,7 +3,7 @@ package Utilities.TestData;
 public class Constant {
 
     public static final String USERNAME = "10442227306";
-    public static final String PASSWORD = "1234";
+    public static final String PASSWORD = "12354";
     public static final String system_admin = "sysadmin";
     public static final String system_password = "1234";
     public static final String OTP = "1111";

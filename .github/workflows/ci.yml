@@ -5,6 +5,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  schedule:          # Trigger daily at 7:00 AM 
+    - cron: '0 4 * * *'
 
 jobs:
   build-and-test:
@@ -45,7 +47,7 @@ jobs:
 
       # Step 6: Send email if there are failures
       - name: Send Email on Failure
-        if: failure()
+        if: ${{ steps.run-tests.outcome == 'failure' }}
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
@@ -57,7 +59,5 @@ jobs:
             The following tests failed in GalaxyAutomation_login_POSTING_FILE:
 
             ${{ steps.parse-failures.outputs.failures }}
-
-            
           to: Salah.Mohamed@paysky.io
           from: eslam.samy@paysky.io

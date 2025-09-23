@@ -2,8 +2,8 @@
 HR
 00000001
 281633
-PTIN000003250922
-20250922204608
+PTIN000007250923
+20250923144803
 C
 
 # Record Type: HS
@@ -13,8 +13,8 @@ HS
   8163300088088
                
 00000000
-20250922
-20250922204608
+20250923
+20250923144803
 952
 E
 
@@ -1357,8 +1357,8 @@ Merchant number:     81633000880
 Outlet number:   8163300088088
 Terminal ID:                
 Batch number: 00000000
-Batch capture date: 20250922
-Batch date & time: 20250922204608
+Batch capture date: 20250923
+Batch date & time: 20250923144803
 Records count debit: 000004
 Net amount debit: 000000000000011258
 Records count credit: 000033

@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:          # Trigger daily at 7:00 AM UTC
-    - cron: '0 4 * * *'
+    - cron: '0 6 * * *'
 
 jobs:
   critical-login-test:
@@ -39,8 +39,8 @@ jobs:
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "❌ Critical Login Test Failed"
           body: |
-            The critical login test in GalaxyAutomation_login_POSTING_FILE has failed.
+            The critical login test in GalaxyAutomation_login has failed.
             Please check the GitHub Actions logs for details.
-          to: saleh.mohamed@paysky.io,eslam.samy@paysky.io
+          to: salah.mohamed@paysky.io,eslam.samy@paysky.io
           from: eslam.samy@paysky.io
           # debug: true

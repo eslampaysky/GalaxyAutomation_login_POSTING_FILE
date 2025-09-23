@@ -23,7 +23,7 @@ public class SettlementReportPage {
 
     public SettlementReportPage() {
         driver = DriverFactory.getDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
     public WebElement bank_drop_down() {

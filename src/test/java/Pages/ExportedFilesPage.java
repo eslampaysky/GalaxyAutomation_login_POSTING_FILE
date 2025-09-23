@@ -30,7 +30,7 @@ public class ExportedFilesPage {
 
     public ExportedFilesPage() {
         driver = DriverFactory.getDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         // Ensure dirs exist
         new File(PROJECT_DOWNLOAD_PATH).mkdirs();
@@ -67,6 +67,12 @@ public class ExportedFilesPage {
 
     @Step("Download settlement report from Exported Files")
     public String Download_Settlement_Report_Device() {
+
+        try {
+            Thread.sleep(2000); // Sleep for 2 seconds to let the page load
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         String exportedTimestamp = getFileTimestamp();
 
         // Delete old zip before new download
@@ -75,7 +81,7 @@ public class ExportedFilesPage {
         downloadButton().click();
 
         try {
-            Thread.sleep(5000); // wait for download to complete
+            Thread.sleep(2000); // wait for download to complete
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

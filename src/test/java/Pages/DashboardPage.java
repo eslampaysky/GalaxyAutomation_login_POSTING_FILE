@@ -22,7 +22,7 @@ public class DashboardPage {
 
     public DashboardPage() {
         driver = DriverFactory.getDriver();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
 
     public WebElement SettlementReportTab() {

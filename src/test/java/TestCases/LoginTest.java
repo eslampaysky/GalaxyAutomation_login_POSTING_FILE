@@ -25,7 +25,7 @@ public void loginWithValidData() {
     WebElement OTP = loginPage.successMsg();
 
     Allure.step("Assert dashboard is displayed");
-    Assert.assertTrue(OTP.isDisplayed(), "Dashboard element should be visible.");
+    Assert.assertTrue(OTP.isDisplayed(), "OTP Message element should be visible.");
 }
 
 }

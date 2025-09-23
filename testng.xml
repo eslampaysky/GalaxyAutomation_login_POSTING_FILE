@@ -2,13 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Critical Suite" verbose="1" parallel="false">
     <test name="Critical Tests">
-        <groups>
-            <run>
-                <include name="critical"/>
-            </run>
-        </groups>
         <classes>
             <class name="TestCases.LoginTest"/>
+            <class name="TestCases.SettlementReportTest"/>
         </classes>
     </test>
 </suite>

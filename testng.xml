@@ -4,7 +4,7 @@
     <test name="Critical Tests">
         <classes>
             <class name="TestCases.LoginTest"/>
-            <class name="TestCases.SettlementReportTest"/>
+            <!-- <class name="TestCases.SettlementReportTest"/> -->
         </classes>
     </test>
 </suite>

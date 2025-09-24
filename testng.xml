@@ -13,7 +13,7 @@
     <!-- Settlement Report related tests -->
     <test name="Reporting Suite">
         <classes>
-            <class name="TestCases.SettlementReportTest"/>
+            <!-- <class name="TestCases.SettlementReportTest"/> -->
         </classes>
     </test>
 

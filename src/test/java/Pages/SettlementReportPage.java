@@ -3,6 +3,7 @@ package Pages;
 import java.time.Duration;
 // import java.time.LocalDate;
 // import java.time.format.DateTimeFormatter;
+import io.qameta.allure.Step;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -57,7 +58,7 @@ public class SettlementReportPage {
     }
 
     // 🔹 Dynamic DateFrom = Today - 29 days
-   
+@Step("Change Date From field")
 public void changeDateFrom() {
     // LocalDate fromDate = LocalDate.now().minusDays(29);
     // String formatted = fromDate.atStartOfDay().format(FORMATTER);
@@ -70,7 +71,7 @@ public void changeDateFrom() {
 }
 
 // 🔹 Dynamic DateTo = Today
-
+@Step("Change Date TO field")
 public void changeDateTo() {
     // LocalDate toDate = LocalDate.now();
     // String formatted = toDate.atTime(23, 59, 59).format(FORMATTER);
@@ -94,6 +95,8 @@ public void changeDateTo() {
                 By.xpath("/html/body/div[2]/div/div/section/div[1]/div[1]/div[2]/div/p")));
     }
 
+    
+@Step("Download Settlement Report with selected filters")
     public void Download_Settlement_Report() {
         bank_drop_down().click();
         search_drop_down().sendKeys("OFFUS");

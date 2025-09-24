@@ -145,13 +145,13 @@ def find_matching_record(db_row, records):
         file_voucher6 = file_voucher[:6].zfill(6)
 
         if db_rrn6 == file_voucher6:
-            # return both parsed and full voucher for reporting
             return parsed, rec, file_voucher
 
     return None, None, None
 
 # --- Detailed validation & reporting ---
 def validate_and_report(db_rows, records, report_path):
+    total_fails = 0
     with open(report_path, "w", encoding="utf-8") as report:
         report.write("=== Validation Report (Row ↔ DT Matching) ===\n\n")
 
@@ -163,7 +163,10 @@ def validate_and_report(db_rows, records, report_path):
 
             parsed_record, raw_record, full_file_voucher = find_matching_record(row, records)
             if not parsed_record:
-                report.write(f"[FAIL] No matching DT record found for Voucher {voucher_id}\n\n")
+                msg = f"[FAIL] No matching DT record found for Voucher {voucher_id}"
+                report.write(msg + "\n\n")
+                safe_print(msg)
+                total_fails += 1
                 continue
 
             expected_values = expected_file_values(row)
@@ -171,14 +174,18 @@ def validate_and_report(db_rows, records, report_path):
             for field, expected in expected_values.items():
                 actual = parsed_record.get(field, "")
                 if actual == expected:
-                    report.write(f"[PASS] {field}: DB='{expected}' == File='{actual}'\n")
+                    msg = f"[PASS] {field}: DB='{expected}' == File='{actual}'"
                 else:
-                    report.write(f"[FAIL] {field}: DB='{expected}' != File='{actual}'\n")
+                    msg = f"[FAIL] {field}: DB='{expected}' != File='{actual}'"
+                    total_fails += 1
+                report.write(msg + "\n")
+                safe_print(msg)
 
             report.write(f"Raw DT record: {raw_record}\n")
             report.write(f"Full file voucher: {full_file_voucher}\n\n")
 
     safe_print(f"📄 Detailed validation report written to {report_path}")
+    return total_fails
 
 # --- Main program ---
 def main():
@@ -197,10 +204,15 @@ def main():
     db_rows = fetch_settlement_rows(date_from, date_to)
     safe_print(f"[PYTHON] Found {len(db_rows)} rows in DB between {date_from} and {date_to}")
 
-    validate_and_report(db_rows, records, REPORT_FILE)
+    total_fails = validate_and_report(db_rows, records, REPORT_FILE)
 
-    safe_print("✅ DB validation completed. Check validation_report.txt for details.")
-    sys.exit(0)
+    safe_print(f"=== SUMMARY: {total_fails} FAIL(s) found ===")
+
+    if total_fails > 0:
+        sys.exit(4)  # non-zero -> TestNG will mark test failed
+    else:
+        safe_print("✅ DB validation completed with all PASS")
+        sys.exit(0)
 
 if __name__ == "__main__":
     main()

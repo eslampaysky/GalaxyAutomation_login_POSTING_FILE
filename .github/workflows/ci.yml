@@ -43,4 +43,5 @@ jobs:
             Please check the GitHub Actions logs for details.
           to: salah.mohamed@paysky.io,eslam.samy@paysky.io
           from: eslam.samy@paysky.io
+          attachments: allure-report/index.html
           # debug: true

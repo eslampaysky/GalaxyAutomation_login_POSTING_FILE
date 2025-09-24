@@ -7,6 +7,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
+import io.qameta.allure.Step;
+
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -92,6 +94,12 @@ public class ExportedFilesPage {
 
     @Step("Verify downloaded file contains timestamp: {expectedTimestamp} and extract")
     public boolean verifyAndExtractFile(String expectedTimestamp) {
+        try {
+            Thread.sleep(3000); // Sleep for 3 seconds to let the page load
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         File dir = new File(PROJECT_DOWNLOAD_PATH);
 
         // Wait up to 15 sec for file to appear

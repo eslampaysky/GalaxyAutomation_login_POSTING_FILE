@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import Utilities.TestData.Constant;
 import java.time.Duration;
+import io.qameta.allure.Step;
+
 
 public class LoginPage {
 
@@ -55,7 +57,9 @@ public class LoginPage {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#IndexMerchant > a > img")));
     }
 
+
     // Login logic
+    @Step("Login as Merchant")
     public void Login_merchant() {
         openLoginPage();
         UserName().sendKeys(Constant.USERNAME);
@@ -63,6 +67,7 @@ public class LoginPage {
         SendOtp().click();
         successMsg();
         }
+        @Step("Login as System Admin")
         public void Login_admin() {
         openLoginPage();
         UserName().sendKeys(Constant.system_admin);

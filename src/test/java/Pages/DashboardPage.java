@@ -4,6 +4,8 @@ package Pages;
 
 
 import java.time.Duration;
+import io.qameta.allure.Step;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -24,7 +26,7 @@ public class DashboardPage {
         driver = DriverFactory.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
-
+    
     public WebElement SettlementReportTab() {
         // Wait until the loader is not visible before clicking
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("#page-loader > div")));
@@ -58,13 +60,19 @@ public class DashboardPage {
         }
     }
 
-    // Login logic
+   @Step("Go to Settlement Report page")
     public void Go_to_Settlement_Page() {
         SettlementReportTab();
         service_click().click();
         
         }
+    @Step("Go to Exported Files page")
     public void Go_to_Exported_files_page() {
+         try {
+            Thread.sleep(2000); // Sleep for 2 seconds to let the page load
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         scrollToBottom(driver);
         Exported_files_page();
         Exported_files_page().click();

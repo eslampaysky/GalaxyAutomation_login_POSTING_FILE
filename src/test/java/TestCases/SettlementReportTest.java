@@ -2,21 +2,28 @@ package TestCases;
 
 import Pages.*;
 import Utilities.Selenium.DriverFactory;
-
-import io.qameta.allure.Allure;
+import io.qameta.allure.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import Utilities.Listeners.AllureTestListener;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 
+@Epic("Reporting")
+@Feature("Settlement Report Download & Validation")
+@Owner("Eslam Samy")
+@Listeners(AllureTestListener.class)
 public class SettlementReportTest {
 
     WebDriver driver;
@@ -31,6 +38,7 @@ public class SettlementReportTest {
             "C:\\Users\\EslamSamy\\IdeaProjects\\Galaxy_Auto_Login_Test\\split_text_with_labels.py";
 
     @BeforeMethod
+    @Step("Setup WebDriver and clean old downloaded files")
     public void setUp() {
         driver = DriverFactory.getDriver();
         wait = new WebDriverWait(driver, Duration.ofSeconds(50));
@@ -50,7 +58,10 @@ public class SettlementReportTest {
         }
     }
 
-    @Test
+    @Test(groups = {"critical"})
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Admin downloads and validates settlement report")
+    @Description("Test downloads a settlement report, verifies file correctness, and validates against DB using Python scripts.")
     public void downloadSettlementReport() throws Exception {
         // Step 1: Login
         Allure.step("Step 1: Login as admin");
@@ -112,16 +123,29 @@ public class SettlementReportTest {
             pb.redirectErrorStream(true);
             Process process = pb.start();
 
-            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            StringBuilder fullOutput = new StringBuilder();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream(), StandardCharsets.UTF_8));
             String line;
             while ((line = reader.readLine()) != null) {
-                Allure.step("[PYTHON] " + line);
+                fullOutput.append(line).append("\n");
+
+                // Mark passes and fails clearly in Allure
+                if (line.contains("[FAIL]")) {
+                    Allure.step("❌ " + line);
+                } else if (line.contains("[PASS]")) {
+                    Allure.step("✅ " + line);
+                } else {
+                    Allure.step("📌 " + line);
+                }
                 System.out.println("[PYTHON] " + line);
             }
 
             int exitCode = process.waitFor();
             Assert.assertEquals(exitCode, 0, "❌ Python script failed!");
-            Allure.step("✅ Python script executed successfully");
+
+            // Attach full output
+            Allure.addAttachment("Python Script Output", "text/plain",
+                    fullOutput.toString(), ".txt");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -130,6 +154,7 @@ public class SettlementReportTest {
     }
 
     @AfterMethod
+    @Step("Close WebDriver")
     public void tearDown() {
         DriverFactory.quitDriver();
         Allure.step("✅ WebDriver closed");

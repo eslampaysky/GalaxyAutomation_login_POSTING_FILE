@@ -1,10 +1,6 @@
 name: Critical Login Test CI/CD
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+
           
     
 
